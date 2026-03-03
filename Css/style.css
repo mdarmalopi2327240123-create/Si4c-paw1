@@ -1,0 +1,25 @@
+/* element selector */
+body {
+    background-color: #8494FF;
+    color: white;
+    font-family: Verdana;
+
+    }
+    .txt-center { text-align: center;}
+    .bg-warning { background-color: yellow; border-radius: 20px 0px; border-style: dashed; border-color: blue; border-width: 5px;}
+    .txt-black { color: black;}
+    .p-1 { padding: 50px;}   
+    .m-1 { margin: 20px;}
+    
+    /* unvisited link */
+    a:link {
+        color: red;
+    }
+    /* visited link */
+    a:visited {
+        color: green;
+    }
+    /* mouse over link */
+    a:hover {
+        color: hotpink;
+    }
