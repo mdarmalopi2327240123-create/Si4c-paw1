@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+/* hp max-width: 600px */
+body {
+    background-color: blue;
+}
+ img {
+    width: 100%;
+    
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+/*  tablet main width: 600px */
+.row {
+    clear: both;
+}
+@media screen and (min-width: 600px) {
+    body {
+        background-color: green;
+    }
+    .col-lg-50 {
+        width: 50%;
+        float: left;
+    }
+
+    
+    /* desktop min width: 922px */
+    @media screen and (min-width: 922px) {
+        body {
+            background-color: red;
+        }
+    }
+    /* class selector */
+    .col-lg-25 {
+        width: 25%;
+        float: left;
+    }
+
+}
